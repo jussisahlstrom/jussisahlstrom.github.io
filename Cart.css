@@ -1,0 +1,190 @@
+body {
+    margin: 0px;
+    background-image: url('17580.png'); 
+    background-size: cover;
+    position: relative;
+    left: 0px;
+    margin-left: auto;
+    width: 1200px;
+    margin-right: auto;
+    text-align: left;
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+}
+
+#header {
+    position: absolute;
+    z-index: 0;
+}
+
+#nb {
+    background-color: black;
+    width: 900px;
+    height: 40px;
+}
+
+.nb1 {
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    color:#FFFFFF;
+    font-size:25px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.nb2 {
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    color: black;
+    font-size:25px;
+    text-decoration: none;
+    padding: 1px 6px 2px 6px;
+    border-radius: 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    background-color:   #e6e6e6;
+    float: right;
+    margin-top: 3.5px;
+    margin-right: 10px;
+}
+.nb3 {
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    color: black;
+    font-size:25px;
+    text-decoration: none;
+    padding: 1px 6px 2px 6px;
+    border-radius: 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    background-color:   #e6e6e6;
+    float: right;
+    margin-top: 3.5px;
+    margin-right: 10px;
+}
+#nb button:hover {
+    color: yellow;
+    box-shadow: inset 0 -3px 0 yellow;
+}
+
+#db {
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    background-color: #ffff00;
+    margin-bottom: 4px; 
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+}
+
+#db button:hover {
+    color: grey;
+    box-shadow: inset 0 -3px 0 grey;
+}
+button {
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+.b1 {
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+button:focus { 
+      outline: none; 
+}
+
+.sd1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    box-sizing: 30px;
+    background-color: black;
+    padding: 4px;
+    padding-right: 25px;
+    padding-left: 23px;
+}
+#Product {
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+#details {
+    font-size: 20px; 
+    line-height: 1pt;
+    padding-top: 50px;
+}
+#price {
+    font-size: 24px;
+    padding-top: 50px;
+}
+
+hr {
+    margin-top: 70px;
+    border-top: 1px solid black;
+}
+#final {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+#total {
+    margin-left: 120px;
+}
+#fprice {
+    margin-right: 107px;
+}
+.p1 { 
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    border: 1px solid black;
+    padding: 17px;
+    padding-right: 40px;
+    padding-left: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    background-color:#ffff00; 
+    margin-top: 20px;
+    font-size: 35px;
+    float: right;
+    margin-right: 80px;
+}
+#pay button:hover { 
+    color: black;
+    box-shadow: inset 0 -3px 0 black;
+}
+ 
+.footer {
+    margin-top: 140px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 3pt;
+    padding: 0.5px;
+}
+
+#gettotalprice {
+font-size: 20px;
+margin-left: 100px;
+border: 2px solid black;
+background-color: yellow;
+}
+
+#result {
+font-size: 40px;
+border: none;
+cursor: none;
+pointer-events: none;
+margin-left:px;
+padding-right: 20px;
+}
+

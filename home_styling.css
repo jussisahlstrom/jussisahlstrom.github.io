@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    background-image: url('17580.png'); 
+    background-size: cover;
+    position: relative;
+    left: 0px;
+    margin-left: auto;
+    width: 1200px;
+    margin-right: auto;
+    text-align: left;
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+}
+
+#header {
+    position: absolute;
+    z-index: 0;
+}
+
+#nb {
+    background-color: black;
+    width: 900px;
+    height: 40px;
+}
+
+.nb1 {
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    color:#FFFFFF;
+    font-size:25px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+.nb2 {
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    color: black;
+    font-size:25px;
+    text-decoration: none;
+    padding: 1px 6px 2px 6px;
+    border-radius: 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    background-color:   #e6e6e6;
+    float: right;
+    margin-top: 3.5px;
+    margin-right: 10px;
+}
+.nb3 {
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    color: black;
+    font-size:25px;
+    text-decoration: none;
+    padding: 1px 6px 2px 6px;
+    border-radius: 10px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    background-color:   #e6e6e6;
+    float: right;
+    margin-top: 3.5px;
+    margin-right: 10px;
+}
+#nb button:hover {
+    color: yellow;
+    box-shadow: inset 0 -3px 0 yellow;
+}
+
+#db {
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+    background-color: #ffff00;
+    margin-bottom: 4px; 
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+}
+
+#db button:hover {
+    color: grey;
+    box-shadow: inset 0 -3px 0 grey;
+}
+button {
+    font-family:'Franklin Gothic Cond Medium', 'Franklin Gothic', sans-serif;
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition-duration: 0.4s;
+  }
+
+button:focus { 
+      outline: none; 
+}
+
+
+.sd1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    box-sizing: 30px;
+    background-color: black;
+    padding: 4px;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+.sort { 
+    float: right;    
+}
+/*
+.db1 {
+    padding-right: 64px;
+    padding-left: 61px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 0.5px solid black;
+}
+.db2 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.db3 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;    
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.db4 {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;   
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.db5 {
+    border: 1px solid black;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+*/
+#items {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 30px;
+    line-height: 0.5pt;
+    text-decoration: none;
+}
+ .footer {
+    margin-top: 140px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    line-height: 3pt;
+    padding: 0.5px;
+ }
+
+

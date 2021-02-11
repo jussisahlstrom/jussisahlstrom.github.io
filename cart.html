@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<link rel="stylesheet" href="Cart.css"> 
+<link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.css">
+<html>
+    <head>
+    <title> Sportswear Ramirez Ky </title>
+    </head> 
+    <body> 
+
+        
+        <div id="header">
+            <!-- Navigation Bar -->
+            <div id="nb">
+            <a class="nb1" href="index.html"> Sportswear Ramirez Ky </a>
+            <a class="nb3" href="cart.html"> <i class="fa fa-shopping-cart"> </i> Cart </a>
+            <a class="nb2" href="index.html"> Home </a>
+            </div>
+
+            <!-- Departments Bar -->
+            <div id="db">
+            <button id="Men" onclick="window.location.href='home.html'"> Men </button>
+            <button type="button" class="b1"> Woman </button>
+            <button type="button" class="b1"> Children </button>
+            <button type="button" class="b1"> Shoes </button>
+            <button type="button" class="b1"> Sports Equipment </button>
+            </div>
+
+            <div id="sd">
+            <!-- Cart -->
+            <a class="sd1"> Cart </a>
+            </div>
+
+            <div id="Product">
+                <div id="ProductPic"> 
+                <a href="Product Details.html">
+                <img src="https://www.xxl.fi/filespin/eb316d4956de4f718989c771e370b81e?resize=544,544&quality=90&bgcolor=efefef" width="180" height="180"> </a>
+                </div>
+                <div id="details">
+                <p> Nike Pro Compression </p>
+                <p> Training Shorts </p>
+                Quantity <input type="number" id="a">
+                </div>
+                
+
+
+
+            
+                <div id="price">  
+                <p> <b> 34,99€ </b> </p> 
+                
+                </div>
+            </div>
+            <hr>  </hr>
+            <div id="final">
+                <div id="total">
+                    <p><b> Total: </p></b>
+                </div>
+                <div id="fprice">
+                    <p> <b> <input id="result" type="euro"> € </p> </b>
+                </div>
+            </div>
+
+            <div>
+                <button id="gettotalprice" onclick="calculate()">Calculate total price</button>
+
+            </div>
+    
+            <div id="pay">
+            <button type="button" class="p1"> Pay </button>
+            </div>
+            <footer class="footer">
+              <p> Email: sportswear@ramirez.fi </a></p>
+              <p> Phone Number: +35845321654 </p>
+              <p> Address: Myllykatu 160, Oulu 90069 </p>
+              <p> Copyright: MyllyTeam 2020 </p>
+          </footer>
+
+          <script>
+              function calculate() {
+                const a = document.querySelector('#a')
+                const result = document.querySelector('#result')
+
+                result.value = a.value * 34.99;
+
+              }
+
+
+
+          </script>
+      </body>
+  </html>
+  
