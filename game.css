@@ -1,0 +1,53 @@
+.grid {
+border: 1px solid;
+display: flex;
+flex-wrap: wrap;
+height: 540px;
+width: 540px;
+}
+
+.grid div {
+height: 60px;
+width: 60px;
+}
+
+.ending-block {
+background-color: rgb(194, 97, 178);
+}
+
+.starting-block {
+background-color: rgb(194, 97, 178);
+}
+
+.middle-block {
+background-color: rgb(168, 117, 8);
+
+
+}
+.car1 {
+background-color: rgb(48, 44, 44);
+
+}
+
+.car2, .car3 {
+background-color: rgb(156, 156, 156);
+
+}
+
+.log1, .log2, .log3 {
+background-color: rgba(105, 72, 0, 0.747);
+
+}
+ .log4, .log5 {
+background-color: rgb(49, 161, 199);
+
+ }
+
+ .frog {
+    background-color: rgb(39, 172, 50);
+    
+    }
+
+body {
+background-color: rgba(128, 59, 74, 0.767);
+}
