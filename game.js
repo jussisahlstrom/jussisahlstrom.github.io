@@ -180,7 +180,7 @@ function lose() {
     }
   }
 
-//move pieces
+
 function movePieces() {
     currentTime--
     timeLeft.textContent = currentTime
