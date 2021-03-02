@@ -43,7 +43,7 @@ function moveFrog(e) {
   }
 
 
-//move the car left on a time loop
+
 function moveCarL(carL) {
     switch (true) {
       case carL.classList.contains('car1'):
@@ -61,7 +61,7 @@ function moveCarL(carL) {
     }
   }
 
-  //move the car right on a time loop
+
   function moveCarR(carR) {
     switch (true) {
       case carR.classList.contains('car1'):
@@ -150,9 +150,9 @@ document.removeEventListener('keyup', moveFrog)
 
 //L
 function lose() {
-    if ((currentTime === 0 ) || (squares[currentIndex].classList.contains('c1')) 
-    || (squares[currentIndex].classList.contains('l5'))
-    || (squares[currentIndex].classList.contains('l4'))
+    if ((currentTime === 0 ) || (squares[currentIndex].classList.contains('car1')) 
+    || (squares[currentIndex].classList.contains('log5'))
+    || (squares[currentIndex].classList.contains('log4'))
     ) {
       result.innerHTML = 'You died. RIP. #MOTI'
       squares[currentIndex].classList.remove('frog')
