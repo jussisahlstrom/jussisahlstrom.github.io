@@ -154,7 +154,7 @@ function lose() {
     || (squares[currentIndex].classList.contains('log5'))
     || (squares[currentIndex].classList.contains('log4'))
     ) {
-      result.innerHTML = 'You died. RIP. #MOTI'
+      result.innerHTML = 'The frog died. Please press "Try again?"-button to play again.'
       squares[currentIndex].classList.remove('frog')
       clearInterval(timerId)
       document.removeEventListener('keyup', moveFrog)
@@ -181,7 +181,7 @@ function lose() {
   }
 
 
-function movePieces() {
+function moveCL() {
     currentTime--
     timeLeft.textContent = currentTime
     carsMove()
@@ -196,7 +196,7 @@ startBtn.addEventListener('click', () => {
     if(timerId) {
       clearInterval(timerId)
     } else {
-      timerId = setInterval(movePieces, 1000)
+      timerId = setInterval(moveCL, 1000)
       document.addEventListener('keyup', moveFrog)
     }
 })
